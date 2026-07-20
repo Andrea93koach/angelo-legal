@@ -5,92 +5,260 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Privacy Policy — Angelo</title>
 <style>
-  body { font-family: -apple-system, "Inter", Arial, sans-serif; max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; color: #1a1a2e; line-height: 1.6; }
-  h1 { color: #0a1628; }
-  h2 { color: #0a1628; margin-top: 40px; border-bottom: 1px solid #ede9e1; padding-bottom: 8px; }
+  body { font-family: -apple-system, "Inter", Arial, sans-serif; max-width: 820px; margin: 0 auto; padding: 32px 20px 80px; color: #1a1a2e; line-height: 1.6; }
+  h1 { color: #0a1628; margin-bottom: 4px; }
+  h2 { color: #0a1628; margin-top: 44px; border-bottom: 1px solid #ede9e1; padding-bottom: 8px; }
+  h3 { color: #0a1628; margin-top: 28px; }
   .updated { color: #6b6560; font-size: 14px; }
-  .notice { background: #fff6e6; border-radius: 10px; padding: 16px 20px; font-size: 14px; color: #3d3830; }
+  .notice { background: #fff6e6; border-radius: 10px; padding: 16px 20px; font-size: 14px; color: #3d3830; margin: 20px 0; }
   a { color: #185fa5; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 14px; }
+  th, td { border: 1px solid #ede9e1; padding: 10px 12px; text-align: left; vertical-align: top; }
+  th { background: #f7f4ef; color: #0a1628; }
+  .quick-summary td:first-child { font-weight: 600; width: 220px; }
 </style>
 </head>
 <body>
-  <h1>Privacy Policy di Angelo</h1>
-  <p class="updated">Ultimo aggiornamento: 7 luglio 2026</p>
+  <h1>Informativa sulla Privacy di Angelo</h1>
+  <p class="updated">Versione 1.0 — Luglio 2026 · Regolamento UE 2016/679 (GDPR) · D.Lgs. 196/2003 come modificato dal D.Lgs. 101/2018</p>
 
   <div class="notice">
-    Nota: Angelo è attualmente in fase di sviluppo. Questa informativa descrive come trattiamo i dati
-    oggi e verrà aggiornata man mano che l'app introduce nuove funzionalità (es. autenticazione,
-    notifiche familiari in tempo reale).
+    Nota: Angelo è attualmente in fase di sviluppo. Questa informativa descrive fedelmente come trattiamo i dati
+    <strong>oggi</strong> e verrà aggiornata ogni volta che l'app introduce nuove funzionalità o nuovi fornitori
+    (es. pagamenti in-app, monitoraggio errori, notifiche familiari granulari).
   </div>
 
-  <h2>Titolare del trattamento</h2>
+  <h2>Riepilogo rapido</h2>
+  <table class="quick-summary">
+    <tr><td>Titolare del Trattamento</td><td>SM SERVIZI SRLS</td></tr>
+    <tr><td>Dati principali trattati</td><td>Identità anonima d'uso, contenuti scansionati su richiesta, cronologia controlli (classificazione + parole chiave, mai il testo integrale)</td></tr>
+    <tr><td>Finalità principale</td><td>Rilevamento truffe e protezione antifrode</td></tr>
+    <tr><td>Terze parti principali</td><td>Anthropic (AI), Supabase (database/autenticazione), Google (Safe Browsing, Speech-to-Text), Cloudmersive (scansione file)</td></tr>
+    <tr><td>Pagamenti in-app</td><td>Non ancora attivi — nessun dato di pagamento è oggi raccolto o condiviso</td></tr>
+    <tr><td>Diritto di cancellazione</td><td>Sì — via email o PEC (vedi sezione 8)</td></tr>
+  </table>
+
+  <h2>1. Titolare del Trattamento</h2>
+  <p>Il Titolare del trattamento dei dati personali raccolti tramite l'applicazione Angelo e i siti web correlati è:</p>
+  <table>
+    <tr><th>Ragione sociale</th><td>SM SERVIZI SRLS</td></tr>
+    <tr><th>Partita IVA</th><td>IT03238380590</td></tr>
+    <tr><th>Sede legale</th><td>Via Giuseppe Garibaldi 7, 04020 Itri (LT), Italia</td></tr>
+    <tr><th>Email privacy</th><td><a href="mailto:privacy@angelo-app.com">privacy@angelo-app.com</a></td></tr>
+    <tr><th>PEC</th><td>smserviziairent@pec.it</td></tr>
+    <tr><th>Sito legale</th><td>legal.angelo-app.com</td></tr>
+  </table>
   <p>
-    SM SERVIZI SRLS<br />
-    Via Giuseppe Garibaldi 7, 04020 Itri (LT), Italia<br />
-    Email: <a href="mailto:amministrazione@marketingxp.it">amministrazione@marketingxp.it</a>
+    <strong>Responsabile della Protezione dei Dati (DPO/RPD):</strong> in ragione della tipologia e del volume
+    attuale dei dati trattati, la nomina di un DPO non è al momento obbligatoria ai sensi dell'art. 37 GDPR.
+    Qualsiasi istanza può essere indirizzata al Titolare all'indirizzo <a href="mailto:privacy@angelo-app.com">privacy@angelo-app.com</a>.
   </p>
 
-  <h2>Cos'è Angelo</h2>
-  <p>
-    Angelo è un'app di protezione civile digitale contro le truffe: aiuta chi la usa a riconoscere
-    messaggi, chiamate, link, documenti e IBAN sospetti, e mette in contatto con i propri familiari in
-    caso di emergenza (funzione SOS).
-  </p>
+  <h2>2. Dati Personali Raccolti</h2>
+  <p>Angelo raccoglie esclusivamente i dati strettamente necessari alla fornitura del servizio antifrode, nel rispetto del principio di minimizzazione previsto dall'art. 5, par. 1, lett. c) del GDPR.</p>
 
-  <h2>Dati che raccogliamo</h2>
+  <h3>2.1 Dati forniti direttamente dall'utente</h3>
+  <table>
+    <tr><th>Categoria</th><th>Dati specifici</th><th>Quando</th></tr>
+    <tr><td>Identità d'uso</td><td>Identità anonima generata automaticamente al primo avvio (nessun dato personale richiesto per usare l'app)</td><td>Primo utilizzo</td></tr>
+    <tr><td>Dati di gestione account</td><td>Nome, cognome, email, telefono — solo per chi accede all'area di gestione (oggi riservata all'amministrazione interna, non richiesta per l'uso normale dell'app)</td><td>Accesso all'area di gestione</td></tr>
+    <tr><td>Contenuti analizzati</td><td>Testo SMS/email/WhatsApp incollato; screenshot o foto; documenti PDF; link; numero di telefono; IBAN; audio di chiamate sospette; fotogrammi video</td><td>Utilizzo di una delle funzioni di Analizza</td></tr>
+    <tr><td>Dati del Piano Famiglia</td><td>Nomi/etichette dei profili familiari protetti, inseriti volontariamente da chi amministra il piano</td><td>Configurazione Famiglia</td></tr>
+    <tr><td>Segnalazioni community</td><td>Descrizione della truffa segnalata</td><td>Funzione "Segnala una truffa"</td></tr>
+    <tr><td>Feedback e recensioni</td><td>Valutazione e commento facoltativo</td><td>Funzione "Recensisci Angelo"</td></tr>
+  </table>
+
+  <h3>2.2 Dati raccolti automaticamente</h3>
+  <table>
+    <tr><th>Categoria</th><th>Dati specifici</th><th>Finalità</th></tr>
+    <tr><td>Cronologia controlli</td><td>Tipo di analisi effettuata, classificazione del rischio (sicuro/sospetto/pericoloso), 2-5 parole chiave brevi estratte dal contenuto — mai il testo/audio/immagine originale</td><td>Mostrarti lo storico delle tue verifiche; migliorare l'app</td></tr>
+    <tr><td>Log tecnici</td><td>Indirizzo IP e log applicativi standard raccolti dall'infrastruttura (Supabase, hosting web)</td><td>Sicurezza, prevenzione abusi, funzionamento del servizio</td></tr>
+  </table>
+  <div class="notice">
+    <strong>Contenuti analizzati:</strong> il contenuto grezzo che invii a una funzione di Analizza (testo, foto, audio,
+    documento) viene elaborato solo per il tempo necessario a restituirti il risultato e non viene conservato in
+    forma integrale: nella cronologia resta soltanto la classificazione del rischio e alcune parole chiave brevi
+    estratte, mai il contenuto originale, il numero di telefono o l'IBAN controllato per intero.
+  </div>
+  <div class="notice">
+    <strong>Geolocalizzazione:</strong> Angelo <strong>non richiede né raccoglie la posizione GPS</strong> del tuo
+    dispositivo. La "zona" mostrata nel Radar Truffe è una regione italiana che scegli manualmente tu, non è
+    rilevata automaticamente — scelta deliberata per non introdurre monitoraggio passivo.
+  </div>
+
+  <h3>2.3 Dati che NON raccogliamo</h3>
   <ul>
-    <li><strong>Dati account</strong>: nome, cognome, email, telefono, forniti volontariamente durante la registrazione.</li>
-    <li><strong>Contenuti che analizzi con Angelo</strong>: testo, foto, documenti, audio o numeri di telefono/IBAN che scegli di controllare tramite la funzione "Analizza". Questi contenuti vengono elaborati per fornirti un risultato di rischio e non sono usati per altri scopi.</li>
-    <li><strong>Permessi di sistema</strong>: fotocamera (per fotografare messaggi sospetti o scansionare QR code), microfono (per registrare un audio da controllare nel Controllo Vishing), notifiche (per avvisarti di truffe rilevanti o dell'attività dei familiari che proteggi). Puoi negare o revocare questi permessi in qualsiasi momento dalle impostazioni del telefono.</li>
-    <li><strong>Dati del Family Plan</strong>: se attivi la protezione per un familiare, l'amministratore dell'account inserisce nome, relazione e modalità d'uso di quella persona.</li>
-    <li><strong>Posizione</strong>: solo se scegli di condividerla durante un allarme SOS.</li>
+    <li>Dati sanitari o relativi alla salute</li>
+    <li>Dati biometrici</li>
+    <li>Posizione GPS del dispositivo</li>
+    <li>Rubrica telefonica o lista contatti del dispositivo</li>
+    <li>Dati delle carte di credito o bancari (i pagamenti in-app non sono ancora attivi; quando lo saranno, verranno gestiti esclusivamente dagli store Apple/Google, mai da Angelo direttamente)</li>
   </ul>
 
-  <h2>Come usiamo i tuoi dati</h2>
+  <h2>3. Finalità del Trattamento</h2>
+  <h3>3.1 Finalità primarie (necessarie per il servizio)</h3>
+  <table>
+    <tr><th>Finalità</th><th>Descrizione</th><th>Base giuridica</th></tr>
+    <tr><td>Erogazione servizio antifrode</td><td>Analisi contenuti, restituzione del risultato, accesso a Scudo Offline e Radar Truffe</td><td>Esecuzione contratto — art. 6(1)(b)</td></tr>
+    <tr><td>Gestione dell'area amministrativa</td><td>Accesso riservato per la gestione interna dell'app</td><td>Esecuzione contratto — art. 6(1)(b)</td></tr>
+    <tr><td>Funzionalità SOS e Piano Famiglia</td><td>Allarme ai contatti designati; configurazione profili familiari</td><td>Esecuzione contratto — art. 6(1)(b)</td></tr>
+    <tr><td>Sicurezza del servizio</td><td>Rilevamento di un uso anomalo (es. limite giornaliero di verifiche), prevenzione abusi dell'infrastruttura</td><td>Interesse legittimo — art. 6(1)(f)</td></tr>
+    <tr><td>Assistenza e miglioramento</td><td>Risoluzione di problemi segnalati; miglioramento dell'accuratezza dei controlli</td><td>Interesse legittimo — art. 6(1)(f)</td></tr>
+  </table>
+
+  <h3>3.2 Quando introdurremo pagamenti in-app</h3>
   <p>
-    Usiamo i dati raccolti esclusivamente per fornire le funzionalità di Angelo: rilevamento truffe,
-    gestione del Family Plan, funzione SOS, e per migliorare l'accuratezza dei controlli nel tempo.
-    Non vendiamo i tuoi dati a terzi e non li usiamo per pubblicità.
+    Angelo prevede piani a pagamento (Personal e Famiglia), non ancora attivi alla data di questa informativa. Nessun
+    dato di pagamento è oggi raccolto o condiviso con terzi. Prima di attivare i pagamenti, questa informativa verrà
+    aggiornata per descrivere con precisione il fornitore di gestione abbonamenti scelto e i dati trattati.
   </p>
 
-  <h2>Dove sono conservati i dati</h2>
+  <h2>4. Base Giuridica del Trattamento</h2>
+  <ul>
+    <li><strong>Esecuzione di un contratto</strong> (art. 6, par. 1, lett. b): per le operazioni necessarie all'erogazione del servizio Angelo.</li>
+    <li><strong>Legittimo interesse</strong> (art. 6, par. 1, lett. f): per la sicurezza del servizio e la prevenzione di abusi sull'infrastruttura.</li>
+    <li><strong>Consenso</strong> (art. 6, par. 1, lett. a): per eventuali finalità future soggette a consenso esplicito (es. notifiche marketing), raccolto tramite meccanismi granulari quando verranno introdotte.</li>
+  </ul>
+
+  <h2>5. Periodo di Conservazione dei Dati</h2>
+  <p>Angelo si impegna a rispettare i seguenti periodi di conservazione, coerenti col principio di minimizzazione:</p>
+  <table>
+    <tr><th>Categoria dati</th><th>Periodo</th><th>Motivazione</th></tr>
+    <tr><td>Contenuto grezzo analizzato (testo, foto, audio, documento)</td><td>Non conservato oltre l'elaborazione</td><td>Data minimization — solo il tempo dell'analisi</td></tr>
+    <tr><td>Cronologia controlli (classificazione + parole chiave)</td><td>Fino alla cancellazione richiesta dall'utente</td><td>Funzionalità storico personale</td></tr>
+    <tr><td>Dati dell'area di gestione</td><td>Durata dell'accesso + 30 giorni dalla richiesta di cancellazione</td><td>Gestione del servizio</td></tr>
+    <tr><td>Log tecnici e di sicurezza (IP, errori applicativi)</td><td>Secondo i periodi standard del fornitore di infrastruttura (Supabase/hosting)</td><td>Sicurezza, prevenzione abusi, debug</td></tr>
+    <tr><td>Segnalazioni community</td><td>Indeterminato, in forma aggregata</td><td>Database di intelligence sulle truffe — nessun dato che ti identifichi</td></tr>
+  </table>
+
+  <h2>6. Responsabili del Trattamento e Fornitori Terzi</h2>
+  <p>Per erogare il servizio Angelo ci avvaliamo dei seguenti fornitori terzi, con i quali intratteniamo un rapporto di responsabile del trattamento ai sensi dell'art. 28 GDPR dove applicabile:</p>
+  <table>
+    <tr><th>Fornitore</th><th>Servizio</th><th>Dati condivisi</th></tr>
+    <tr><td>Anthropic, Inc.</td><td>Motore AI di analisi antifrode (Claude)</td><td>Il contenuto che scegli di analizzare (testo, immagine, audio trascritto) — elaborato, non conservato da Anthropic oltre l'analisi</td></tr>
+    <tr><td>Supabase, Inc.</td><td>Database, autenticazione, funzioni server (infrastruttura ospitata su AWS, regione UE)</td><td>Identità d'uso, cronologia controlli, dati dell'area di gestione</td></tr>
+    <tr><td>Google LLC</td><td>Google Safe Browsing (verifica link) e Speech-to-Text (trascrizione Controllo Vishing)</td><td>URL da verificare; audio da trascrivere</td></tr>
+    <tr><td>Cloudmersive</td><td>Scansione antivirus dei file (Controllo File)</td><td>File caricato, solo per la scansione</td></tr>
+    <tr><td>Amazon Web Services (Amplify)</td><td>Hosting della versione web dell'app</td><td>Log tecnici standard di accesso</td></tr>
+    <tr><td>Zoho Corporation</td><td>Casella di posta aziendale</td><td>Email inviate alle caselle @angelo-app.com</td></tr>
+    <tr><td>Apple / Google Store</td><td>Distribuzione dell'app e, in futuro, gestione dei pagamenti in-app</td><td>Dati di pagamento — mai accessibili ad Angelo direttamente</td></tr>
+  </table>
+  <div class="notice">
+    <strong>Comunicazione per obbligo di legge:</strong> Angelo potrà comunicare dati ad autorità pubbliche o organi
+    giudiziari esclusivamente in presenza di un obbligo legale o di un ordine dell'autorità competente.
+  </div>
+
+  <h3>6.1 Condivisione nell'ambito del Piano Famiglia</h3>
   <p>
-    I dati dell'account sono conservati tramite Supabase, un fornitore di infrastruttura database
-    conforme al GDPR. I contenuti che analizzi con la funzione Analizza sono trattati solo per il
-    tempo necessario a fornirti il risultato.
+    Nell'ambito del Piano Famiglia, alcuni dati (es. esito di un controllo, attivazione SOS) possono essere visibili
+    agli altri membri del nucleo familiare, esclusivamente in base a come chi amministra il piano lo configura.
+    L'amministratore del piano è responsabile di ottenere il consenso informato dei familiari aggiunti.
   </p>
 
-  <h2>Condivisione con terzi</h2>
+  <h2>7. Trasferimenti Internazionali di Dati</h2>
   <p>
-    Non condividiamo i tuoi dati personali con terzi per finalità commerciali. Potremmo usare fornitori
-    tecnici (es. hosting, invio notifiche) strettamente necessari al funzionamento del servizio, tenuti
-    contrattualmente alla riservatezza.
+    Alcuni fornitori (Anthropic, Google) hanno sede negli USA. I trasferimenti verso questi fornitori avvengono sulla
+    base delle Clausole Contrattuali Standard (SCC) approvate dalla Commissione Europea con Decisione 2021/914, e/o
+    del quadro EU-US Data Privacy Framework ove applicabile. I dati gestiti da Supabase sono ospitati su
+    infrastruttura AWS in una regione dell'Unione Europea. Puoi richiedere copia delle garanzie adottate scrivendo a
+    <a href="mailto:privacy@angelo-app.com">privacy@angelo-app.com</a>.
   </p>
 
-  <h2>I tuoi diritti</h2>
+  <h2>8. I Tuoi Diritti</h2>
+  <table>
+    <tr><th>Diritto</th><th>Articolo GDPR</th><th>Descrizione sintetica</th></tr>
+    <tr><td>Accesso</td><td>Art. 15</td><td>Ottenere conferma del trattamento e copia dei tuoi dati</td></tr>
+    <tr><td>Rettifica</td><td>Art. 16</td><td>Correggere dati inesatti o incompleti</td></tr>
+    <tr><td>Cancellazione ("oblio")</td><td>Art. 17</td><td>Richiedere l'eliminazione dei tuoi dati, salvo obblighi di legge</td></tr>
+    <tr><td>Limitazione</td><td>Art. 18</td><td>Chiedere la sospensione del trattamento in determinati casi</td></tr>
+    <tr><td>Portabilità</td><td>Art. 20</td><td>Ricevere i tuoi dati in un formato strutturato</td></tr>
+    <tr><td>Opposizione</td><td>Art. 21</td><td>Opporti al trattamento basato su legittimo interesse</td></tr>
+    <tr><td>Revoca del consenso</td><td>Art. 7</td><td>Revocare un consenso dato in precedenza, senza effetto retroattivo</td></tr>
+  </table>
+
+  <h3>Come esercitare i tuoi diritti</h3>
+  <table>
+    <tr><th>Modalità</th><th>Come fare</th><th>Tempi</th></tr>
+    <tr><td>Via email</td><td><a href="mailto:privacy@angelo-app.com">privacy@angelo-app.com</a> — indica la richiesta specifica</td><td>Risposta entro 30 giorni (proroga fino a 90 per richieste complesse)</td></tr>
+    <tr><td>Via PEC</td><td>smserviziairent@pec.it</td><td>Risposta entro 30 giorni</td></tr>
+  </table>
   <p>
-    In quanto interessato ai sensi del GDPR, hai diritto di accedere, rettificare, cancellare i tuoi
-    dati, richiederne la portabilità o opporti al trattamento. Per esercitare questi diritti, scrivi a
-    <a href="mailto:amministrazione@marketingxp.it">amministrazione@marketingxp.it</a>.
+    Non esistono oggi controlli granulari di privacy direttamente nell'app: sono previsti per una fase successiva di
+    sviluppo. Finché non saranno disponibili, ogni richiesta va indirizzata via email o PEC come sopra.
+  </p>
+  <div class="notice">
+    <strong>Diritto di reclamo al Garante:</strong> se ritieni che il trattamento dei tuoi dati personali violi il
+    GDPR, hai diritto di proporre reclamo all'Autorità Garante per la Protezione dei Dati Personali
+    (<a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">www.garanteprivacy.it</a>), oppure
+    all'autorità di controllo dello Stato membro UE in cui risiedi.
+  </div>
+
+  <h2>9. Protezione dei Minori</h2>
+  <p>
+    Il servizio Angelo è destinato a utenti che abbiano compiuto 16 anni di età. Non raccogliamo consapevolmente dati
+    di minori di 16 anni senza il consenso di chi esercita la responsabilità genitoriale.
+  </p>
+  <h3>9.1 Piano Famiglia — profili di persone protette</h3>
+  <p>
+    Chi amministra il Piano Famiglia può configurare la protezione anche per familiari minorenni. In questo caso,
+    l'adulto amministratore fornisce il consenso al trattamento per conto del minore, e i dati del profilo sono
+    trattati esclusivamente per le funzionalità di protezione antifrode e SOS.
   </p>
 
-  <h2>Minori e Modalità Nonna</h2>
+  <h2>10. Cookie e Tecnologie di Tracciamento</h2>
   <p>
-    I profili gestiti in "Modalità Nonna" o comunque configurati da un familiare amministratore
-    restano sotto la responsabilità di chi amministra l'account principale, che garantisce di avere
-    il diritto di inserire i dati di quella persona.
+    L'applicazione Angelo <strong>non utilizza cookie</strong>. Il sito web <code>legal.angelo-app.com</code> è una
+    pagina statica che oggi non utilizza cookie né strumenti di analisi/tracciamento di alcun tipo. Se in futuro
+    introdurremo strumenti di analisi (es. per capire quante persone leggono queste pagine), questa informativa verrà
+    aggiornata di conseguenza e, se necessario, verrà predisposto un banner di consenso conforme.
   </p>
 
-  <h2>Sicurezza</h2>
+  <h2>11. Sicurezza dei Dati</h2>
   <p>
-    Adottiamo misure tecniche ragionevoli per proteggere i tuoi dati, incluse policy di accesso a
-    livello di riga (Row Level Security) sul database e trasmissione dei dati via connessioni
-    cifrate (HTTPS).
+    Angelo applica le seguenti misure tecniche e organizzative per proteggere i tuoi dati, in linea con l'art. 32 GDPR:
+  </p>
+  <ul>
+    <li><strong>Cifratura in transito:</strong> tutte le comunicazioni tra l'app e i server avvengono via HTTPS/TLS.</li>
+    <li><strong>Cifratura a riposo:</strong> i dati sono cifrati a riposo secondo gli standard del fornitore di database (Supabase).</li>
+    <li><strong>Row Level Security:</strong> l'accesso ai dati di ciascun utente è protetto a livello di riga nel database, così che un utente non possa accedere ai dati di un altro.</li>
+    <li><strong>Nessuna chiave segreta nel bundle dell'app:</strong> le chiavi di accesso ai servizi AI/anti-frode restano solo lato server, mai incluse nel codice dell'app scaricata dagli utenti.</li>
+    <li><strong>Limitazione degli abusi:</strong> alcune funzioni (es. verifica numeri/IBAN) hanno un limite giornaliero per utente per prevenire un uso massivo come strumento di validazione da parte di malintenzionati.</li>
+  </ul>
+  <div class="notice">
+    <strong>Contesto di rischio specifico di Angelo:</strong> per la sua natura di strumento antifrode, Angelo può
+    essere oggetto di attenzione da parte degli stessi operatori criminali che combatte. Ne teniamo conto nelle
+    scelte di sicurezza sopra descritte, che continuano ad evolversi insieme al prodotto.
+  </div>
+  <p>
+    In caso di violazione dei dati (data breach) che comporti un rischio per i tuoi diritti, Angelo notificherà la
+    violazione al Garante Privacy entro 72 ore dalla scoperta (art. 33 GDPR) e, se il rischio è elevato, informerà
+    direttamente gli utenti interessati senza ingiustificato ritardo (art. 34 GDPR).
   </p>
 
-  <h2>Contatti</h2>
+  <h2>12. Modifiche alla Presente Informativa</h2>
   <p>
-    Per qualsiasi domanda su questa informativa: <a href="mailto:amministrazione@marketingxp.it">amministrazione@marketingxp.it</a>.
+    In caso di modifiche sostanziali (es. nuovo fornitore, nuova finalità di trattamento), aggiorneremo questa pagina
+    e, quando possibile, avviseremo gli utenti registrati. Modifiche non sostanziali saranno pubblicate qui con
+    aggiornamento della data.
+  </p>
+  <table>
+    <tr><th>Versione</th><th>Data</th><th>Principali modifiche</th></tr>
+    <tr><td>1.0</td><td>Luglio 2026</td><td>Prima pubblicazione ufficiale dell'Informativa sulla Privacy di Angelo</td></tr>
+  </table>
+
+  <h2>13. Contatti</h2>
+  <table>
+    <tr><th>Email privacy</th><td><a href="mailto:privacy@angelo-app.com">privacy@angelo-app.com</a></td></tr>
+    <tr><th>PEC</th><td>smserviziairent@pec.it</td></tr>
+    <tr><th>Indirizzo postale</th><td>SM SERVIZI SRLS — Via Giuseppe Garibaldi 7, 04020 Itri (LT), Italia</td></tr>
+    <tr><th>Sito legale</th><td>legal.angelo-app.com</td></tr>
+    <tr><th>Garante Privacy IT</th><td><a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">www.garanteprivacy.it</a></td></tr>
+  </table>
+  <p>Ci impegniamo a rispondere a tutte le richieste entro 30 giorni dalla ricezione. Per richieste complesse, il termine può essere prorogato fino a 90 giorni, dandone comunicazione all'interessato entro il primo mese.</p>
+
+  <p class="updated" style="margin-top:48px; text-align:center;">
+    ANGELO — Protezione Civile Digitale | Versione 1.0 — Luglio 2026 | legal.angelo-app.com/privacy-policy/<br />
+    Regolamento UE 2016/679 (GDPR) | D.Lgs. 196/2003 come modificato dal D.Lgs. 101/2018
   </p>
 </body>
 </html>
